@@ -1,21 +1,111 @@
-# Django-registration-and-login-system
-This web app has been developed using the popular Django framework and Bootstrap for the frontend. My motivation to build this project is so that I can learn about Django and tighten up my skills. This mini-app can be easily integrated into a bigger system project that needs to have a registration and login system.
+# AI-Based Network Threat Detection using Machine Learning
 
-### Basic Features of The App
-    
-* Register – Users can register and create a new profile
-* Login - Registered users can login using username and password
-* Social Apps Login – Users can login using their GitHub or Google account
-* User Profile - Once logged in, users can create and update additional information such as avatar and bio in the profile page
-* Update Profile – Users can update their information such as username, email, password, avatar and bio
-* Remember me – Cookie Option, users don’t have to provide credentials every time they hit the site
-* Forgot Password – Users can easily retrieve their password if they forget it 
-* Admin Panel – admin can CRUD users
+## Project Overview
 
-![ScreenShot](https://user-images.githubusercontent.com/66206865/131695930-648342b0-010b-44b2-a419-15ad54d47869.png)
+This project focuses on **Predictive Modelling for Network Threat Detection** using **Artificial Intelligence and Machine Learning** techniques. The system analyzes network traffic data to identify potential cyber threats such as intrusions, malware, and anomalies.
 
-## Tutorial
-[Here](https://dev.to/earthcomfy/series/14274) is a tutorial on how to build this project.
+The goal of this project is to improve **cybersecurity by detecting suspicious activities in network traffic** and enabling proactive threat prevention.
+
+---
+
+## Objectives
+
+* Detect cyber threats in network traffic using machine learning
+* Analyze and visualize network traffic patterns
+* Compare multiple ML models for threat detection
+* Build an efficient predictive model for cybersecurity analysis
+
+---
+
+## Project Workflow
+
+### 1. Data Preprocessing
+
+* Cleaning the dataset
+* Handling missing values
+* Feature selection
+* Data transformation
+
+### 2. Data Visualization
+
+* Graphical analysis of network traffic
+* Understanding patterns and anomalies
+
+### 3. Model Training
+
+The following machine learning models were implemented:
+
+* **BNC – Bayesian Network Classifier**
+* **ADC – Anomaly Detection Classifier**
+* **RFC – Random Forest Classifier**
+
+### 4. Model Evaluation
+
+* Accuracy comparison
+* Performance analysis
+
+### 5. Prediction System
+
+Detects potential cyber threats from network data.
+
+---
+
+## Project Structure
+
+```
+Network-Threat-Detection/
+│
+├── M1-DATA PREPROCESSING.ipynb
+├── M2-DATA VISUALIZATION.ipynb
+├── M3-BNC.ipynb
+├── M4-ADC.ipynb
+├── M5-RFC.ipynb
+├── M6-Report.ipynb
+│
+├── cyber.pkl
+├── deploy/
+├── README.md
+└── FULL DOCUMENT.docx
+```
+
+---
+
+## Technologies Used
+
+* Python
+* Machine Learning
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Django (for deployment)
+
+---
+
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/your-username/network-threat-detection.git
+```
+
+Navigate to the project folder
+
+```
+cd network-threat-detection
+```
+
+Install required libraries
+
+```
+pip install -r requirements.txt
+```
+
+Run the notebooks using **Jupyter Notebook**.
+
+---
 
 ### Quick Start
 To get this project up and running locally on your computer follow the following steps.
@@ -29,4 +119,28 @@ $ python manage.py runserver
 ```
    
 3. Open a browser and go to http://localhost:8000/
+
+---
+
+---
+
+## Results
+
+The machine learning models analyze network traffic data and classify it into **normal or malicious activities**, helping identify potential cyber threats.
+
+---
+
+## Applications
+
+* Network security monitoring
+* Intrusion detection systems
+* Cybersecurity research
+* Threat analysis in enterprise networks
+
+---
+
+## Author
+
+Final Year Project – **Predictive Modelling for Network Threat Detection**
+
 
