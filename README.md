@@ -81,13 +81,13 @@ To include it in the repository, it has been compressed as Basic_report.zip.
 1. Download or clone the repository.
 
 2. Navigate to the folder:
-
+```
 Deploy/users/templates/app/
-
+```
 3. Unzip the file:
-
+```
 unzip Basic_report.zip -d Deploy/users/templates/app/
-
+```
 4. Once unzipped, your program can access and use Basic_report.html as intended.
 
 ---
