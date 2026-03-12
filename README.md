@@ -70,25 +70,25 @@ Network-Threat-Detection/
 
 ---
 
-Note About the Basic Report
+## Note About the Basic Report
 
 The original Basic_report.html file is too large to upload directly to GitHub (338 MB exceeds the 100 MB limit).
 
 To include it in the repository, it has been compressed as Basic_report.zip.
 
-How to Use the Report
+## How to Use the Report
 
-Download or clone the repository.
+1. Download or clone the repository.
 
-Navigate to the folder:
+2. Navigate to the folder:
 
 Deploy/users/templates/app/
 
-Unzip the file:
+3. Unzip the file:
 
 unzip Basic_report.zip -d Deploy/users/templates/app/
 
-Once unzipped, your program can access and use Basic_report.html as intended.
+4. Once unzipped, your program can access and use Basic_report.html as intended.
 
 ---
 
