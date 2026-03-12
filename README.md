@@ -35,8 +35,8 @@ The goal of this project is to improve **cybersecurity by detecting suspicious a
 
 The following machine learning models were implemented:
 
-* **BNC – Bayesian Network Classifier**
-* **ADC – Anomaly Detection Classifier**
+* **BNC – BernoulliNB Classifier**
+* **ADC – AdaBoost Classifier**
 * **RFC – Random Forest Classifier**
 
 ### 4. Model Evaluation
