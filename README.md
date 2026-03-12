@@ -55,17 +55,24 @@ Detects potential cyber threats from network data.
 ```
 Network-Threat-Detection/
 │
-├── M1-DATA PREPROCESSING.ipynb
-├── M2-DATA VISUALIZATION.ipynb
-├── M3-BNC.ipynb
-├── M4-ADC.ipynb
-├── M5-RFC.ipynb
-├── M6-Report.ipynb
+├── M1-DATA PREPROCESSING.ipynb        # Notebook for cleaning & preparing the dataset
+├── M2-DATA VISUALIZATION.ipynb        # Notebook for plotting charts and exploring data
+├── M3-BNC.ipynb                       # Notebook implementing BernoulliNB Classifier Algorithm(BNC)
+├── M4-ADC.ipynb                       # Notebook for AdaBoost Classifier Algorithm(ADC)
+├── M5-RFC.ipynb                       # Notebook for Random Forest Classifier Algorithm(RFC)
+├── M6-Report.ipynb                    # Notebook compiling results & summary
 │
-├── cyber.pkl
-├── deploy/
-├── README.md
-└── FULL DOCUMENT.docx
+├── cyber_dataset.csv                   # Raw dataset with network traffic / threat data
+├── requirements.txt                    # Python dependencies (libraries to install)
+│
+├── README.md                           # Project overview & usage instructions
+├── .gitignore                          # Git ignore rules
+├── .gitattributes                      # Git attributes
+│
+└── deploy/                             # Deployment / web app folder
+    ├── user_management/                # Likely contains authentication, registration, and role management
+    ├── users/                          # Possibly user-related views, templates, and endpoints
+    └── manage.py                      # Main deployment script (probably runs server and manages user requests)
 ```
 
 ---
