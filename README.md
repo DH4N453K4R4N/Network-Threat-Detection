@@ -88,7 +88,7 @@ Deploy/users/templates/app/
 ```
 unzip Basic_report.zip -d Deploy/users/templates/app/
 ```
-4. Once unzipped, your program can access and use Basic_report.html as intended.
+4. Once unzipped, your program can access and use ```Basic_report.html``` as intended.
 
 ---
 
